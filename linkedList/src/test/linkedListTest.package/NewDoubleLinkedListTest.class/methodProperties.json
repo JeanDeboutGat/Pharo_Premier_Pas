@@ -1,7 +1,8 @@
 {
 	"instance" : {
 		"testAdd" : "JeanDeboutGatari 2/22/2021 18:30",
-		"testIsEmpty" : "JeanDeboutGatari 2/22/2021 16:19"
+		"testIsEmpty" : "JeanDeboutGatari 2/22/2021 16:19",
+		"testAddMoreThanOne" : "JeanDeboutGatari 2/22/2021 19:28"
 	},
 	"class" : { }
 }
