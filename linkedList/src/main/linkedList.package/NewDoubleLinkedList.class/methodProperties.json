@@ -1,13 +1,14 @@
 {
 	"instance" : {
+		"getElementAtPosition:" : "JeanDeboutGatari 2/22/2021 21:31",
 		"length" : "JeanDeboutGatari 2/22/2021 20:05",
-		"tail" : "JeanDeboutGatari 2/22/2021 12:57",
 		"initialize" : "JeanDeboutGatari 2/22/2021 15:02",
 		"head:" : "JeanDeboutGatari 2/22/2021 14:21",
+		"tail" : "JeanDeboutGatari 2/22/2021 12:57",
 		"tail:" : "JeanDeboutGatari 2/22/2021 14:22",
-		"isEmpty" : "JeanDeboutGatari 2/22/2021 18:18",
+		"addNode:" : "JeanDeboutGatari 2/22/2021 19:34",
 		"head" : "JeanDeboutGatari 2/22/2021 12:57",
-		"addNode:" : "JeanDeboutGatari 2/22/2021 19:34"
+		"isEmpty" : "JeanDeboutGatari 2/22/2021 18:18"
 	},
 	"class" : { }
 }
