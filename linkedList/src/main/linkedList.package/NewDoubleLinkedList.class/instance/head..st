@@ -1,4 +1,4 @@
 accessing
-head: cell
+head: node
 
-	head := cell
+	head := node

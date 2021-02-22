@@ -1,4 +1,4 @@
 accessing
-tail: cell
+tail: node
 
-	tail := cell
+	tail := node
