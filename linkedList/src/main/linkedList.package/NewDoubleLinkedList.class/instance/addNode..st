@@ -1,9 +1,26 @@
 adding
 addNode: anElement
-	"Add the element in the parameter to the list"
+	"Add anElement into the list.
+	 If the list is empty, heads and tails points to newNode containing anElement
+	 otherwise newNode containing anElement is added to the end of list. tail->next set to newNode"
 	
-	| newElement |	
-	newElement := Node initializeWith: anElement.
-	head := tail := newElement.
-	newElement next: nil.
-	newElement previous: nil. 
+	| newNode |	
+	newNode := Node initializeWith: anElement.
+	
+	head 
+	ifNil:[
+		head := tail := newNode.
+		newNode next: nil.
+		newNode previous: nil.
+	]
+	ifNotNil:[
+	tail next: newNode.
+	newNode previous: tail.
+	tail := newNode.
+	tail next: nil
+	]
+
+
+	
+	
+	

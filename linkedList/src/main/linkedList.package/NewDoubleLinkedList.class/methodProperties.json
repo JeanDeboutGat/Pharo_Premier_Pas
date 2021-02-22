@@ -1,12 +1,13 @@
 {
 	"instance" : {
+		"length" : "JeanDeboutGatari 2/22/2021 20:05",
 		"tail" : "JeanDeboutGatari 2/22/2021 12:57",
 		"initialize" : "JeanDeboutGatari 2/22/2021 15:02",
 		"head:" : "JeanDeboutGatari 2/22/2021 14:21",
 		"tail:" : "JeanDeboutGatari 2/22/2021 14:22",
 		"isEmpty" : "JeanDeboutGatari 2/22/2021 18:18",
 		"head" : "JeanDeboutGatari 2/22/2021 12:57",
-		"addNode:" : "JeanDeboutGatari 2/22/2021 18:15"
+		"addNode:" : "JeanDeboutGatari 2/22/2021 19:34"
 	},
 	"class" : { }
 }
