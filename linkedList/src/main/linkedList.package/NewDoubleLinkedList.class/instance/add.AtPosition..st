@@ -6,7 +6,7 @@ add: anElement AtPosition: position
 	 
 	| currentNode newNode  |
 	(position < 1 or: position > self length)
-	 ifTrue: [Error signal: 'Invalid entered position, the position must be stricly positive and not surpassing the size of list elements']. 
+	  ifTrue: [PositionOutOfBoundsException  signal: 'Position must be strictly positive and not surpassing the size of list elements!']. 
 	
 	newNode := Node  initializeWith: anElement.
    currentNode := self computeSuccesor: head  atPosition: position .

@@ -8,7 +8,7 @@ getElementAtPosition: position
 	
 	 "don't accept the non stricly positive position"
 	 (position < 1 or: position > self length)
-	 ifTrue: [Error signal: 'Invalid entered position, the postion must be stricly positive and not surpassing 	 the size of list elements']. 
+	 ifTrue: [PositionOutOfBoundsException  signal: 'Position must be strictly positive and not surpassing the size of list elements!']. 
 	
     "check whether the list is empty"
 	 self isEmpty
