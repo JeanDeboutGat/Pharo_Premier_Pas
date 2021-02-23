@@ -4,7 +4,7 @@ length
 	
 	|count myNode|
     count :=0.
-	 myNode := head.
+	 myNode := self head.
 		
 	[myNode isNotNil 
 	]whileTrue: [ 

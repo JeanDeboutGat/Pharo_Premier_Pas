@@ -18,7 +18,9 @@ addNode: anElement
 	newNode previous: tail.
 	tail := newNode.
 	tail next: nil
-	]
+	].
+
+ 
 
 
 	
