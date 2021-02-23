@@ -14,6 +14,6 @@ getElementAtPosition: position
 	 self isEmpty
 	 ifTrue:[Error signal: 'The list is empty, try to add some elements please!!!']. 
 	
-	 currentNode := self computeSuccesor: head   atPosition: position.
+	 currentNode := self computeSuccessor: head   atPosition: position.
 	 ^currentNode element.  
 	
