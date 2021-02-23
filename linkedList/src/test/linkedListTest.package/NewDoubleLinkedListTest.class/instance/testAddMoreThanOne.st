@@ -6,8 +6,7 @@ testAddMoreThanOne
 
 	
 	self deny:     myList isEmpty.
-	self assert:  (myList head element) equals: 1.
-	self assert:  (myList tail element) equals: 5.
 	self assert:  (myList length) equals: 5.
+	self assert: myList intoArray equals: #( 1 2 3 4 5).
 	
 	
