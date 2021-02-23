@@ -11,7 +11,8 @@ removeNode
 	]
 	ifNotNil:	[
 			currentNode := self computeSuccessor: head atPosition: (self length - 1).
-			currentNode next: (currentNode next next).   
+			currentNode next: (currentNode next next).
+			tail := currentNode.  
 	]
 	
 
