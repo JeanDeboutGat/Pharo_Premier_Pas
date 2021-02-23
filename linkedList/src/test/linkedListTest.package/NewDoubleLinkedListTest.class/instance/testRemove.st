@@ -1,5 +1,5 @@
 tests
-testRemove
+testRemove 
 
 	| myList myEmptyList |
 	myList := NewDoubleLinkedList new.
@@ -14,4 +14,6 @@ testRemove
 	
 	self assert:   myEmptyList isEmpty.
 	self should: [myEmptyList removeNode] raise: NullPointerException.
+	
+
 	
