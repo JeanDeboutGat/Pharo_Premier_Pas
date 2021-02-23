@@ -9,10 +9,10 @@ add: anElement AtPosition: position
 	  ifTrue: [PositionOutOfBoundsException  signal: 'Position must be strictly positive and not surpassing the size of list elements!']. 
 	
 	newNode := Node  initializeWith: anElement.
-   currentNode := self computeSuccessor: head  atPosition: position .
-   
+	currentNode := self computeSuccessor: head  atPosition: position.
    self shift: currentNode with: newNode.
- 
+    
+
   
 	
 
