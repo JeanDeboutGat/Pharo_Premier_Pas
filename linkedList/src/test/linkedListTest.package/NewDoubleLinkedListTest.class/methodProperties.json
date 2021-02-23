@@ -2,9 +2,10 @@
 	"instance" : {
 		"testAdd" : "JeanDeboutGatari 2/22/2021 18:30",
 		"testIsEmpty" : "JeanDeboutGatari 2/22/2021 16:19",
-		"testGetElementAtPosition" : "JeanDeboutGatari 2/22/2021 21:41",
-		"testAddAtPosition" : "JeanDeboutGatari 2/22/2021 20:27",
-		"testAddMoreThanOne" : "JeanDeboutGatari 2/22/2021 19:28"
+		"testGetElementAtPosition" : "JeanDeboutGatari 2/23/2021 13:12",
+		"testAddAll" : "JeanDeboutGatari 2/23/2021 13:47",
+		"testAddAtPosition" : "JeanDeboutGatari 2/23/2021 13:10",
+		"testAddMoreThanOne" : "JeanDeboutGatari 2/23/2021 10:43"
 	},
 	"class" : { }
 }
