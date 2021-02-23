@@ -5,17 +5,18 @@ removeAtPosition: aPosition
 	 otherwise the last node is removed from the list"
 		 
 	| currentNode   |
-	(aPosition < 1 or: aPosition > self length)
+	
+	((aPosition < 1 or: aPosition > self length) and: head notNil )
 	  ifTrue: [PositionOutOfBoundsException  signal: 'Suppression Error,position must be strictly positive and not surpassing the size of list elements!']. 
+	 
 	head 
-	ifNil:[
+	ifNil: [
 			NullPointerException   signal: 'Impossible to remove the element(s) in the empty list, add elements to proceed!!!'	
-	]
-	ifNotNil:	[
+	] 
+	ifNotNil:  	[
 			currentNode := self computeSuccessor: head atPosition: (aPosition - 1).
 			currentNode next: (currentNode next next).
+			tail := tail previous.
 
-	]
-	
+	].
 
- 
