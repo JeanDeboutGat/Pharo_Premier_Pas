@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JeanDeboutGatari 2/24/2021 16:39",
+	"super" : "Object",
+	"category" : "pharoFormatDoc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FormatDoc",
+	"type" : "normal"
+}
