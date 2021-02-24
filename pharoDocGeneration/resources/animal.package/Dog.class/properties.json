@@ -4,12 +4,11 @@
 	"category" : "animal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"size"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"hairColor",
-		"age"
+		"age",
+		"size"
 	],
 	"name" : "Dog",
 	"type" : "normal"
