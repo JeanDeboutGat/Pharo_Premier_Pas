@@ -2,7 +2,7 @@ tests
 testExtractClassName
 	| aClassData classToExtract|
 	classToExtract := Dog new.
-	aClassData := ClassData extractClassDataFrom: classToExtract. 
+	aClassData := self setUpClassData: classToExtract. 
 	self assert:  (aClassData extractClassName: classToExtract) equals: 'Dog'.
 	
 	

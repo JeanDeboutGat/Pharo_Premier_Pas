@@ -1,7 +1,6 @@
 tests
 testExtractMethodsNames
-	| aClassData classToExtract|
-	classToExtract := Dog new.
-	aClassData := ClassData extractClassDataFrom: classToExtract. 
 
-	self assert:  (aClassData extractMethodesNames) equals:#('ageInHumanYears' 'getSize').
+	| aClassData|
+	aClassData := self setUpClassData: Dog new.
+   self assert:  (aClassData extractMethodsNames) equals:#('ageInHumanYears' 'getSize').
