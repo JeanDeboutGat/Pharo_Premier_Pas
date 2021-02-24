@@ -1,5 +1,5 @@
 tests
-testFormatMethods
+testFormatMethodsNames
 
 	| aClassData aClassDataMethods methodsExpected  formatter|
 	
@@ -9,5 +9,5 @@ testFormatMethods
 	methodsExpected := #('ageInHumanYears' 'getSize') asStringWithCr.
 	formatter := FormatDoc new.
 	
-	self assert: (formatter formatMethods: aClassDataMethods)  equals: methodsExpected
+	self assert: (formatter formatMethodsFrom: aClassDataMethods)  equals: methodsExpected
 	
