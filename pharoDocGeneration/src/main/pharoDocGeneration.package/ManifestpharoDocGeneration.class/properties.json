@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JeanDeboutGatari 2/24/2021 15:11",
+	"super" : "PackageManifest",
+	"category" : "pharoDocGeneration-Manifest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ManifestpharoDocGeneration",
+	"type" : "normal"
+}
