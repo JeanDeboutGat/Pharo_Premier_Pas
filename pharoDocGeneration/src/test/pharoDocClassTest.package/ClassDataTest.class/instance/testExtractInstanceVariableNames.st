@@ -1,6 +1,6 @@
 tests
 testExtractInstanceVariableNames
 
-	| aClassData classToExtract|
+	| aClassData |
    aClassData := self setUpClassData: Dog new.
    self assert:  (aClassData extractInstanceVariableNames) equals:#('hairColor' 'age' 'size').
