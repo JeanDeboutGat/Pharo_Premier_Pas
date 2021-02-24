@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JeanDeboutGatari 2/24/2021 10:36",
+	"super" : "PackageManifest",
+	"category" : "animal-Manifest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Manifestanimal",
+	"type" : "normal"
+}

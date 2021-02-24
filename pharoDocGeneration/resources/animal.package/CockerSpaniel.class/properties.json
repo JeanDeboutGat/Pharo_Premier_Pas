@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Dog",
+	"category" : "animal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CockerSpaniel",
+	"type" : "normal"
+}

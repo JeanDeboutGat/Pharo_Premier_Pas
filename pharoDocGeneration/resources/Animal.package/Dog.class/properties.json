@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Animal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"size"
+	],
+	"instvars" : [
+		"hairColor",
+		"age"
+	],
+	"name" : "Dog",
+	"type" : "normal"
+}
