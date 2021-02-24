@@ -1,6 +1,6 @@
 instance creation
 fromArrayToStringWithCr: anArray
-	"converts an array a human readable strings, each element under an otherone"
+	"converts an array into a human readable strings,line per line"
 
 	^ anArray asStringWithCr. 
 	
