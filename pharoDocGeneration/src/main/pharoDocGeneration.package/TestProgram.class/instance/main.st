@@ -5,29 +5,60 @@ main
 	 Let's try different inputs variables and then check in our image folder."
 	
 	
-	| inputFile |
+	| myList  listToAdd|
 	
-	"-----------------------Verify Classes----------------------- "
+	"-------------------Initialise lists------------------"
 	
-	inputFile := Dog.
-	DocGenerator generateDocFrom: inputFile.
-	
-	inputFile := CockerSpaniel.
-	DocGenerator generateDocFrom: inputFile.
-	
-	inputFile := SpringerSpaniel.
-	DocGenerator generateDocFrom: inputFile.
-	
-	inputFile := Color.
-	DocGenerator generateDocFrom: inputFile.
+	myList   := NewDoubleLinkedList new.
+	listToAdd:= NewDoubleLinkedList new.
 	
 	
-	"-----------------------Verify Packages----------------------- "
+	"-------------------Add node(s) -----------------------"
 	
-	inputFile := 'animal'.
-	DocGenerator generateDocFrom: inputFile.
+	myList addNode: 1.
+	myList addOnHead: 2.
+	myList addOnTail: 3.
+	myList displayList.
+	"#(2 1 3) elements should be displayed"
 	
-	inputFile := 'Color'.
-	DocGenerator generateDocFrom: inputFile.
+	
+	"-------------------Add one list to another  --------------"
+	
+	1 to: 3 do: [ :each | listToAdd addNode: each ].
+	myList addAll: listToAdd. 
+	myList displayList.
+	"#(2 1 3 1 2 3) elements should be displayed"
+	
+	
+	"-------------------Display length of a list----------------"  
+	                     
+	Transcript show: myList  length.
+	"6 should be displayed as length of a list"
+	
+	
+	"-------------------remove node(s) -------------------------"
+	
+	myList removeOnHead.
+	myList removeOnTail.
+	myList removeAtPosition:2.
+	myList displayList.
+	"#(1 1 2) elements should be displayed"
+	
+	"-------------------remove node(s) -------------------------"
+	
+	myList removeOnHead.
+	myList removeOnTail.
+	myList removeAtPosition:2.
+	myList displayList.
+	"#(1 1 2) elements should be displayed"
+	
+	"-------------------access the out bound position -----------------"
+	
+   "myList removeAtPosition:4."
 
+   "The PositionOutOfBounds must be handled"
+   "TODO-TOMORROW "
+	
+	
 
+	

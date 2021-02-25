@@ -26,5 +26,5 @@ generateDocFrom: inputFile
 		].
     Transcript show: 'Your files documentation is well created, please find them in your image directory', String cr.
    ]on:Error
-	 do:[ Transcript show: 'The entry is invalid,try with name of package as a string or a class as a class type and try againe!!!',String cr].
+	 do:[ Transcript show: 'The entry is invalid,try with name of package as a string or a class as a class type and try again!!!',String cr].
 
