@@ -27,7 +27,7 @@ main
 	inputFile := 'animal'.
 	DocGenerator generateDocFrom: inputFile.
 	
-	inputFile := 'color'.
+	inputFile := 'Color'.
 	DocGenerator generateDocFrom: inputFile.
 
 
