@@ -6,10 +6,10 @@ from: aClassData
  	| classInformation |
 	
 	classInformation := 'The Documentation of ', (self formatClassNameFrom: aClassData extractClassName), ' class: ',String cr ,String cr, String cr.
-	classInformation := classInformation,  'Superlass      Name   :', String cr, String cr,  (self formatMethodsFrom: (aClassData extractSuperClassName )) , String cr.
-	classInformation := classInformation,  'SubClass(es)   Name(s): ', String cr, String cr,  (self formatMethodsFrom: (aClassData extractSubClassesNames  )) , String cr.
-	classInformation := classInformation,  'Methode(s)     Name(s): ', String cr, String cr,  (self formatMethodsFrom: (aClassData extractMethodsNames )), String cr.
-	classInformation := classInformation,  'InstanceVariable(s) Name(s): ', String cr, String cr, (self formatMethodsFrom: (aClassData extractInstanceVariableNames )), String cr.
+	classInformation := classInformation,  '- Superlass      Name   :', String cr, String cr,  (self formatMethodsFrom: (aClassData extractSuperClassName )) , String cr, String cr.
+	classInformation := classInformation,  '- SubClass(es)   Name(s): ', String cr, String cr,  (self formatMethodsFrom: (aClassData extractSubClassesNames  )) , String cr, String cr.
+	classInformation := classInformation,  '- Methode(s)     Name(s): ', String cr, String cr,  (self formatMethodsFrom: (aClassData extractMethodsNames )), String cr, String cr.
+	classInformation := classInformation,  '- InstanceVariable(s) Name(s): ', String cr, String cr, (self formatMethodsFrom: (aClassData extractInstanceVariableNames )), String cr.
 	
 	^classInformation.	
 
