@@ -5,20 +5,21 @@ generate: inputFile
 
 	| aClassData aPackage classDoc succeeded|
 	
-	succeeded :=False.
+	succeeded :=false.
+	
 	inputFile isPackage
 	ifFalse:[
 		 aClassData := ClassData extractClassDataFrom: inputFile.
 		 classDoc   := FormatDoc from: aClassData.
 		 self generateFileFrom: classDoc.
-		 succeeded :=True.
+		 succeeded :=true.
 			
 	] ifTrue:[ 
 		"to do later!!!!!!"	
-		succeeded :=True
+		succeeded :=true
    ].
 
-   succeeded = False 
+   succeeded = false 
    ifTrue:[ 
 		Transcript show: 'The documentation generation failed. Please check if the input file is valid!!!!!'
 	 ].
