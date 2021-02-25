@@ -1,11 +1,18 @@
 {
 	"instance" : {
-		"testAdd" : "JeanDeboutGatari 2/22/2021 18:30",
-		"testIsEmpty" : "JeanDeboutGatari 2/22/2021 16:19",
-		"testGetElementAtPosition" : "JeanDeboutGatari 2/23/2021 13:12",
 		"testAddAll" : "JeanDeboutGatari 2/23/2021 13:47",
-		"testAddAtPosition" : "JeanDeboutGatari 2/23/2021 13:10",
-		"testAddMoreThanOne" : "JeanDeboutGatari 2/23/2021 10:43"
+		"testAddAtPosition" : "JeanDeboutGatari 2/23/2021 15:49",
+		"testIsEmpty" : "JeanDeboutGatari 2/22/2021 16:19",
+		"testRemoveOnTail" : "JeanDeboutGatari 2/23/2021 18:25",
+		"testAddOnTail" : "JeanDeboutGatari 2/23/2021 16:21",
+		"testRemoveOnHead" : "JeanDeboutGatari 2/23/2021 17:28",
+		"testAddOnHead" : "JeanDeboutGatari 2/23/2021 15:51",
+		"testRemove" : "JeanDeboutGatari 2/23/2021 18:34",
+		"testAddMoreThanOne" : "JeanDeboutGatari 2/23/2021 10:43",
+		"removeAtPosition:" : "JeanDeboutGatari 2/23/2021 20:54",
+		"testRemoveAtPosition" : "JeanDeboutGatari 2/23/2021 18:12",
+		"testGetElementAtPosition" : "JeanDeboutGatari 2/23/2021 15:10",
+		"testAdd" : "JeanDeboutGatari 2/22/2021 18:30"
 	},
 	"class" : { }
 }
