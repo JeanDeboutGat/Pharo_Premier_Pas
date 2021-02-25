@@ -1,7 +1,9 @@
 {
 	"instance" : { },
 	"class" : {
-		"generate:" : "JeanDeboutGatari 2/25/2021 03:15",
-		"generateFileFrom:" : "JeanDeboutGatari 2/25/2021 03:25"
+		"generateClassDataFormatFrom:" : "JeanDeboutGatari 2/25/2021 14:51",
+		"generatePackageDataFrom:" : "JeanDeboutGatari 2/25/2021 14:35",
+		"generateFileFrom:asFileNumber:" : "JeanDeboutGatari 2/25/2021 11:17",
+		"generateDocFrom:" : "JeanDeboutGatari 2/25/2021 14:55"
 	}
 }

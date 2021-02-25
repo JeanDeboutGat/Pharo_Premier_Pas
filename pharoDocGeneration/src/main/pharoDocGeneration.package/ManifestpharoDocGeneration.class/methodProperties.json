@@ -1,4 +1,6 @@
 {
 	"instance" : { },
-	"class" : { }
+	"class" : {
+		"ruleCodeCruftLeftInMethodsRuleV1FalsePositive" : "JeanDeboutGatari 2/25/2021 14:56"
+	}
 }
